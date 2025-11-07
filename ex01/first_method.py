@@ -1,5 +1,6 @@
 class Research:
-    def file_reader():
+
+    def file_reader(self):
         lines = []
         with open("data.csv", "r") as file:
             for line in file:
@@ -7,7 +8,8 @@ class Research:
         return lines
 
 if __name__ == "__main__":
-    for line in Research.file_reader():
-        print(line)
-    
+    research = Research()
+    liens = research.file_reader()
 
+    for line in liens:
+        print(line)
