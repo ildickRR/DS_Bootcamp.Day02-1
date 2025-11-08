@@ -14,7 +14,6 @@ class Research:
 
         if not lines:
             raise Exception("file is empty")
-
       
         if has_header:
             lines = lines[1:]
@@ -42,7 +41,7 @@ class Research:
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python first_nest.py <path_to_csv>")
+        print("dolbaeb")
         sys.exit(1)
 
     path = sys.argv[1]
