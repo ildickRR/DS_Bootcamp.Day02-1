@@ -1,8 +1,8 @@
 
 
-TG_TOKEN = "8578154119:AAFtq05hHndBHlKaM9Goe2zYbNF8hHjUZiQ"
+TG_TOKEN = "ВАШ_ТОКЕН"
 
-TG_CHAT_ID = 628528740
+TG_CHAT_ID = 0
 
 num_of_steps = 3
 
